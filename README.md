@@ -1,5 +1,5 @@
 # TypeScript-Assignment
-2) Keyof is a keyword in TypeScript which is used to extract the key type from an object type.
+2) keyof হলো TypeScript-এর একটি কীওয়ার্ড, যা কোনো object type থেকে তার key-গুলোর টাইপ বের করতে ব্যবহার করা হয়।
    example:
    interface Man{
    name: string;
@@ -15,6 +15,7 @@
    };
    printManInfo(man, "name");
 
-   4) enums define a set of named constants to improve code redability & safety.
+   4) Enums হলো TypeScript-এ নাম দিয়ে একটি নির্দিষ্ট মানের সেট তৈরি করার উপায়।
+এতে কোড আরও পরিষ্কার এবং সুরক্ষিত হয় (readability & safety বাড়ে)।
       example: enum Direction{ North, East, South, West)
                enum Color { Red= "RED", Blue ="BLUE"}
